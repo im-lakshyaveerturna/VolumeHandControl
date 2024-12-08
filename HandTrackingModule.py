@@ -30,7 +30,7 @@ class HandDetector:
 
         return image
 
-    def findPosition(self, image, handNo=0):
+    def findPosition(self, image, handNo=0, draw=True):
         """Finds hand landmarks and returns their pixel positions."""
         lmList = []
         if self.results.multi_hand_landmarks:
@@ -39,11 +39,13 @@ class HandDetector:
             for id, lm in enumerate(hand.landmark):
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 lmList.append((id, cx, cy))
+                if draw:
+                    cv2.circle(image, (int(cx), int(cy)), 10, (255, 0, 0), cv2.FILLED)
         return lmList
 
 
 def main():
-    cap = cv2.VideoCapture(1)  # Use camera index 0 for the default camera
+    cap = cv2.VideoCapture(0)  # Use camera index 0 for the default camera
     if not cap.isOpened():
         print("Error: Could not open webcam.")
         return
