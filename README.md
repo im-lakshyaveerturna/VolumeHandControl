@@ -5,13 +5,15 @@
 
 ## How to use it ?
 
-* Download the project and run <code>VolumeHandControl.py</code> on your device.
+* Clone this repository and run <code>VolumeHandControl.py</code> on your device.
 * Place your hand in front of the front camera.
-* Extend the distance between your thumb and the index finger to increase the volume.
-* Shorten the distance between your thumb and the index finger to decrease the volume.
+* Stretch the distance between your thumb and the index finger to increase the volume.
+* Conversely, shorten the distance between your thumb and the index finger to decrease the volume.
   <br></br>
 
  NOTE: This project is currently suited only for MacOS devices. The project will soon be updated with programs for other OS devices too...
+
+ ### Licensed Under [MIT License](https://github.com/im-lakshyaveerturna/VolumeHands/blob/main/LICENSE)
 
 
 
