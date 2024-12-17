@@ -1,6 +1,6 @@
 <code><h1 align="center">VolumeHandControl</h1></code>
 
-<h2 align = "center">A python program to control the volume of a MacOS devices with a hand gesture.</h2>
+<h2 align = "center">A python program to control the volume of MacOS devices with a hand gesture.</h2>
 <br></br>
 
 ## How to use it ?
