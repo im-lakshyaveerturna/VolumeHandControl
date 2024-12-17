@@ -1,4 +1,6 @@
-<code><h1 align="center">VolumeHandControl</h1></code>
+<code><h1 align="center"> VolumeHandControl </h1></code>
+<h3 align="center">Powered by Computer Vision</h3>
+<br></br>
 
 <h2 align = "center">A python program to control the volume of MacOS devices with a hand gesture.</h2>
 <br></br>
