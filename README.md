@@ -1,4 +1,4 @@
-<code><h1 align="center"> VolumeHandControl </h1></code>
+<code><h1 align="center"> 🔊 VolumeHandControl 👋 </h1></code>
 <h3 align="center">Powered by Computer Vision</h3>
 <br></br>
 
